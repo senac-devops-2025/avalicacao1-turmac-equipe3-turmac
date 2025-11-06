@@ -14,6 +14,6 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Lint
-        run: pylint main.py
+        run: pylint app/main.py
       - name: Testes
         run: pytest
