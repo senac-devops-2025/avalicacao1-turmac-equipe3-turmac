@@ -2,7 +2,6 @@
 Módulo para calcular média e verficar aprovação!
 """
 
-
 def calcular_media(valores):
     """
     Calcula a média de uma lista de valores.
