@@ -13,7 +13,6 @@ jobs:
       - name: Instalar dependências
         run: |
           pip install -r requirements.txt
-          pip install -e .
       - name: Lint
         run: pylint app/main.py
       - name: Testes
